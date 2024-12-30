@@ -110,6 +110,14 @@
         "answer": "I am pursuing a Bachelor of Technology in Computer Science and Engineering."
       },
       {
+        "question": "How are you?",
+        "answer": "I am fine"
+      },
+      {
+        "question": "how are you?",
+        "answer": "I am fine"
+      },
+      {
         "question": "Branch?",
         "answer": "I am pursuing a Bachelor of Technology in Computer Science and Engineering."
       },
@@ -162,24 +170,24 @@
         "answer": "It Allows users to shorten long URLs into concise, manageable links. It is built using HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
       },
       {
-        "question": "what is Real-Time Chat Application?",
+        "question": "what is  URL-Shortner?",
         "answer": "It Allows users to shorten long URLs into concise, manageable links. It is built using HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
       },
       {
-        "question": "Real-Time Chat Application?",
+        "question": " URL-Shortner?",
         "answer": "It Allows users to shorten long URLs into concise, manageable links. It is built using HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
       },
       {
-        "question": "Can you tell me about your Real-Time Chat Application",
+        "question": "Can you tell me about your URL-Shortner",
         "answer": "It Allows users to shorten long URLs into concise, manageable links. It is built using HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
       },
 
       {
-        "question": "what is Real-Time Chat Application",
+        "question": "what is  URL-Shortner",
         "answer": "The Real-Time Chat Application allows users to chat in real-time using technologies like HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
       },
       {
-        "question": "Real-Time Chat Application",
+        "question": " URL-Shortner",
         "answer": "The Real-Time Chat Application allows users to chat in real-time using technologies like HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
       },
       {
@@ -199,20 +207,20 @@
         "answer": "I used React.js, HTML, CSS, JavaScript, and Tailwind CSS for my Portfolio Website."
       },
       {
-        "question": "What is the purpose of your Weather Website?",
-        "answer": "The Weather Website provides real-time weather information using the Open Weather API."
+        "question": "What is the purpose of your CRUD App?",
+        "answer": "Developed comprehensive systems for data management within the CRUD framework."
       },
       {
         "question": "What is the purpose of your CRUD App",
-        "answer": "The Weather Website provides real-time weather information using the Open Weather API."
+        "answer": "Developed comprehensive systems for data management within the CRUD framework."
       },
       {
         "question": "purpose of your Weather Website?",
-        "answer": "The Weather Website provides real-time weather information using the Open Weather API."
+        "answer": "Developed comprehensive systems for data management within the CRUD framework."
       },
       {
-        "question": "purpose of your Weather Website",
-        "answer": "The Weather Website provides real-time weather information using the Open Weather API."
+        "question": "purpose of your CRUD App",
+        "answer": "Developed comprehensive systems for data management within the CRUD framework."
       },
       {
         "question": "What programming languages do you know?",
@@ -307,6 +315,10 @@
       },
       {
         "question": "what are your skills",
+        "answer": "Java,C++, JavaScript, React.js, Next.js, Node.js,express, Mongoose, MongoDB, Socket.io, DBMS, OS, MYSQL,OOPs, basic Python , Data Structure and Algorithm"
+      },
+      {
+        "question": " skills",
         "answer": "Java,C++, JavaScript, React.js, Next.js, Node.js,express, Mongoose, MongoDB, Socket.io, DBMS, OS, MYSQL,OOPs, basic Python , Data Structure and Algorithm"
       },
       {
