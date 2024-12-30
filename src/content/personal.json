@@ -1,0 +1,340 @@
+{
+    "chats": [
+      {
+        "question": "What is your name?",
+        "answer": "My name is Bhushan Kumar."
+      },
+      {
+        "question": "your name?",
+        "answer": "My name is Bhushan Kumar."
+      },
+      {
+        "question": "What is your name",
+        "answer": "My name is Bhushan Kumar"
+      },
+      {
+        "question": "your name",
+        "answer": "My name is Bhushan Kumar"
+      },
+      {
+        "question": "name?",
+        "answer": "My name is Bhushan Kumar"
+      },
+      {
+        "question": "name",
+        "answer": "My name is Bhushan Kumar"
+      },
+      {
+        "question": "What is your contact number?",
+        "answer": "My contact number is +91-8877418157."
+      },
+      {
+        "question": "What is your contact number",
+        "answer": "My contact number is +91-8877418157."
+      },
+      {
+        "question": "contact number?",
+        "answer": "My contact number is +91-8877418157."
+      },
+      {
+        "question": "contact number",
+        "answer": "My contact number is +91-8877418157."
+      },
+      {
+        "question": "contact?",
+        "answer": "My contact number is +91-8877418157."
+      },
+      {
+        "question": "contact",
+        "answer": "My contact number is +91-8877418157."
+      },
+      {
+        "question": "number?",
+        "answer": "My contact number is +91-8877418157."
+      },
+      {
+        "question": "number",
+        "answer": "My contact number is +91-8877418157."
+      },
+      {
+        "question": "What is your email address?",
+        "answer": "You can reach me at bhushanbasantpur@gmail.com or bhushank.ug21.cs@nitp.ac.in."
+      },
+      {
+        "question": "email?",
+        "answer": "You can reach me at bhushanbasantpur@gmail.com or bhushank.ug21.cs@nitp.ac.in."
+      },
+      {
+        "question": "your email address?",
+        "answer": "You can reach me at bhushanbasantpur@gmail.com or bhushank.ug21.cs@nitp.ac.in."
+      },
+      {
+        "question": "your email address",
+        "answer": "You can reach me at bhushanbasantpur@gmail.com or bhushank.ug21.cs@nitp.ac.in."
+      },
+      {
+        "question": "your email?",
+        "answer": "You can reach me at bhushanbasantpur@gmail.com or bhushank.ug21.cs@nitp.ac.in."
+      },
+      {
+        "question": "your email",
+        "answer": "You can reach me at bhushanbasantpur@gmail.com or bhushank.ug21.cs@nitp.ac.in."
+      },
+      
+      {
+        "question": "college??",
+        "answer": "I am studying at the National Institute of Technology, Patna."
+      },
+      {
+        "question": "Where is your college name?",
+        "answer": "I am studying at the National Institute of Technology, Patna."
+      },
+      {
+        "question": "What is your degree?",
+        "answer": "I am pursuing a Bachelor of Technology in Computer Science and Engineering."
+      },
+      {
+        "question": " degree?",
+        "answer": "I am pursuing a Bachelor of Technology in Computer Science and Engineering."
+      },
+      {
+        "question": "your degree?",
+        "answer": "I am pursuing a Bachelor of Technology in Computer Science and Engineering."
+      },
+      {
+        "question": "your degree",
+        "answer": "I am pursuing a Bachelor of Technology in Computer Science and Engineering."
+      },
+      {
+        "question": "What are you doing?",
+        "answer": "I am pursuing a Bachelor of Technology in Computer Science and Engineering."
+      },
+      {
+        "question": "Branch?",
+        "answer": "I am pursuing a Bachelor of Technology in Computer Science and Engineering."
+      },
+      {
+        "question": "What is your CGPA?",
+        "answer": "My current CGPA is 8.2."
+      },
+      {
+        "question": "your CGPA?",
+        "answer": "My current CGPA is 8.2."
+      },
+      {
+        "question": "your CGPA",
+        "answer": "My current CGPA is 8.2."
+      },
+      {
+        "question": "cgpa?",
+        "answer": "8.2."
+      },
+      {
+        "question": "Which year is you studying?",
+        "answer": "4th Year (final year)"
+      },
+      {
+        "question": "What projects have you worked on?",
+        "answer": "I have worked on several projects including a URL-Shortner, a Portfolio Website, and a CRUD Website."
+      },
+      {
+        "question": "project?",
+        "answer": "I have worked on several projects including a URL-Shortner, a Portfolio Website, and a CRUD Website."
+      },
+      {
+        "question": "What projects?",
+        "answer": "I have worked on several projects including a URL-Shortner, a Portfolio Website, and a CRUD Website."
+      },
+      {
+        "question": "What projects",
+        "answer": "I have worked on several projects including a URL-Shortner, a Portfolio Website, and a CRUD Website."
+      },
+      {
+        "question": "What projects have you done?",
+        "answer": "I have worked on several projects including a URL-Shortner, a Portfolio Website, and a CRUD Website."
+      },
+      {
+        "question": "What projects have you done",
+        "answer": "I have worked on several projects including a URL-Shortner, a Portfolio Website, and a CRUD Website."
+      },
+      {
+        "question": "Can you tell me about your URL-Shortner?",
+        "answer": "It Allows users to shorten long URLs into concise, manageable links. It is built using HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
+      },
+      {
+        "question": "what is Real-Time Chat Application?",
+        "answer": "It Allows users to shorten long URLs into concise, manageable links. It is built using HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
+      },
+      {
+        "question": "Real-Time Chat Application?",
+        "answer": "It Allows users to shorten long URLs into concise, manageable links. It is built using HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
+      },
+      {
+        "question": "Can you tell me about your Real-Time Chat Application",
+        "answer": "It Allows users to shorten long URLs into concise, manageable links. It is built using HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
+      },
+
+      {
+        "question": "what is Real-Time Chat Application",
+        "answer": "The Real-Time Chat Application allows users to chat in real-time using technologies like HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
+      },
+      {
+        "question": "Real-Time Chat Application",
+        "answer": "The Real-Time Chat Application allows users to chat in real-time using technologies like HTML, TailwindCSS, JavaScript, React, Node.js, Express, Socket.io, Mongoose, and MongoDB."
+      },
+      {
+        "question": "What technologies did you use for your Portfolio Website?",
+        "answer": "I used React.js, HTML, CSS, JavaScript, and Tailwind CSS for my Portfolio Website."
+      },
+      {
+        "question": "What technologies did you use for your Portfolio Website",
+        "answer": "I used React.js, HTML, CSS, JavaScript, and Tailwind CSS for my Portfolio Website."
+      },
+      {
+        "question": "What technologies are used in Portfolio Website?",
+        "answer": "I used React.js, HTML, CSS, JavaScript, and Tailwind CSS for my Portfolio Website."
+      },
+      {
+        "question": "What technologies are used in Portfolio Website",
+        "answer": "I used React.js, HTML, CSS, JavaScript, and Tailwind CSS for my Portfolio Website."
+      },
+      {
+        "question": "What is the purpose of your Weather Website?",
+        "answer": "The Weather Website provides real-time weather information using the Open Weather API."
+      },
+      {
+        "question": "What is the purpose of your CRUD App",
+        "answer": "The Weather Website provides real-time weather information using the Open Weather API."
+      },
+      {
+        "question": "purpose of your Weather Website?",
+        "answer": "The Weather Website provides real-time weather information using the Open Weather API."
+      },
+      {
+        "question": "purpose of your Weather Website",
+        "answer": "The Weather Website provides real-time weather information using the Open Weather API."
+      },
+      {
+        "question": "What programming languages do you know?",
+        "answer": "I am proficient in C, Java, JavaScript, and SQL."
+      },
+      {
+        "question": "What programming languages do you know",
+        "answer": "I am proficient in C, Java, JavaScript, and SQL."
+      },
+      {
+        "question": "Which programming languages do you know",
+        "answer": "I am proficient in C, Java, JavaScript, and SQL."
+      },
+      {
+        "question": "Which programming languages do you know?",
+        "answer": "I am proficient in C++, Java, JavaScript, and SQL."
+      },
+      {
+        "question": "What developer tools do you use?",
+        "answer": "I use VS Code, MySQL, Git, and GitHub."
+      },
+      {
+        "question": "What developer tools do you use",
+        "answer": "I use VS Code, MySQL, Git, and GitHub."
+      },
+      {
+        "question": "What tools do you use?",
+        "answer": "I use VS Code, MySQL, Git, and GitHub."
+      },
+      {
+        "question": "What tools do you use",
+        "answer": "I use VS Code, MySQL, Git, and GitHub."
+      },
+      {
+        "question": "What web technologies are you familiar with?",
+        "answer": "I am familiar with HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Next.js, Node.js, Express.js, MongoDB, and Mongoose."
+      },
+      {
+        "question": "What web technologies are you familiar with",
+        "answer": "I am familiar with HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Next.js, Node.js, Express.js, MongoDB, and Mongoose."
+      },
+      {
+        "question": "What web technologies are you know?",
+        "answer": "I am familiar with HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Next.js, Node.js, Express.js, MongoDB, and Mongoose."
+      },
+      {
+        "question": "What web technologies are you know",
+        "answer": "I am familiar with HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Next.js, Node.js, Express.js, MongoDB, and Mongoose."
+      },
+      {
+        "question": "What soft skills do you possess?",
+        "answer": "I have strong time management, adaptability, problem-solving, and patience skills."
+      },
+      {
+        "question": "What soft skills do you possess",
+        "answer": "I have strong time management, adaptability, problem-solving, and patience skills."
+      },
+      {
+        "question": "What are your soft skills?",
+        "answer": "I have strong time management, adaptability, problem-solving, and patience skills."
+      },
+      {
+        "question": "What are your soft skills",
+        "answer": "I have strong time management, adaptability, problem-solving, and patience skills."
+      },
+      {
+        "question": "What are your areas of interest?",
+        "answer": "I am interested in Web Development and Competitive Programming."
+      },
+      {
+        "question": "What are your areas of interest",
+        "answer": "I am interested in Web Development and Competitive Programming."
+      },
+      {
+        "question": "What achievements have you accomplished?",
+        "answer": "I secured a rank under 389th globally in a CodeChef contest among over 20,000 competitive programmers, solved more than 1200 problems across platforms, and received a certification from Microsoft for developing a Disney+Hotstar clone."
+      },
+      {
+        "question": "What achievements have you accomplished",
+        "answer": "I secured a rank under 389th globally in a CodeChef contest among over 20,000 competitive programmers, solved more than 1200 problems across platforms, and received a certification from Microsoft for developing a Disney+Hotstar clone."
+      },
+      {
+        "question": "Are you involved in any communities?",
+        "answer": "Yes, I am a core member of the Google Developer Software Community (GDSC) focusing on DSA and Web Development."
+      },
+      {
+        "question": "Are you involved in any communities",
+        "answer": "Yes, I am a core member of the Google Developer Software Community (GDSC) focusing on DSA and Web Development."
+      },{
+        "question": "what are your skills?",
+        "answer": "Java, JavaScript, React.js, Next.js, Node.js,express, Mongoose, MongoDB, Socket.io, DBMS, OS, MYSQL,OOPs, basic Python"
+      },
+      {
+        "question": "what are your skills",
+        "answer": "Java,C++, JavaScript, React.js, Next.js, Node.js,express, Mongoose, MongoDB, Socket.io, DBMS, OS, MYSQL,OOPs, basic Python , Data Structure and Algorithm"
+      },
+      {
+        "question": "who are you?",
+        "answer": "Frontend developer, Backend developer,Full Stack developer"
+      },
+      {
+        "question": "who are you",
+        "answer": "Frontend developer, Backend developer,Full Stack developer"
+      },{
+        "question": "what are your projects?",
+        "answer": "URL-Shortner, Portfolio website and CRUD App"
+      },
+      {
+        "question": "what are your projects",
+        "answer": "URL-Shortner, Portfolio website and CRUD App"
+      },
+      {
+        "question": "your projects?",
+        "answer": "URL-Shortner, Portfolio website and CRUD App"
+      },
+      {
+        "question": "your projects",
+        "answer": "URL-Shortner, Portfolio website and CRUD App"
+      },
+      {
+        "question": "projects?",
+        "answer": "URL-Shortner, Portfolio website and CRUD App"
+    }
+   ]
+ }

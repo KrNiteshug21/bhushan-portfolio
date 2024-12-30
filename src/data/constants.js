@@ -11,7 +11,7 @@ export const Bio = {
     github: 
         "https://github.com/yadavbhushan",
     resume:
-      "https://drive.google.com/file/d/1ThRDHfL8sdnConZnEEKSat7NUkburhNt/view?usp=sharing",
+      "https://drive.google.com/file/d/1XPzQoGuL9whw96xQ_C5tlOBP52_8tGuI/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/bhushan-kumar-077943234/",
     twitter: "https://twitter.com/Bhushan8677",
     insta: "https://www.instagram.com/yadav_bhushan_/",
@@ -122,11 +122,11 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://www.nitp.ac.in/static/logo512-579d034908ae89b5e0243d1274937d5d.png",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjGZCk2pgkCNIbk6yL2r1a4z0Irk6hOjhESQ&s",
       school: "National Institute Of Technology, Patna",
       date: "Dec 2021 - present",
       
-      desc: "Pre final year student at National Institute of Technology Patna, Computer Science Engineering Full stack web developer. Interested in Competitive Programming, Artificial Intelligence, Machine Learning and Block chain.. ",
+      desc: "Final year student at National Institute of Technology Patna, Computer Science Engineering Full stack web developer. Interested in Competitive Programming, Artificial Intelligence, Machine Learning and Block chain.. ",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {

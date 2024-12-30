@@ -18,7 +18,7 @@ import Projects from "./components/Projects/index.js";
 
 import Footer from "./components/Footer/index.js";
 
-
+import ChatComponent from "./ChatComponent.js"
 const Body=styled.div`
  background-color:${({theme})=> theme.bg};
 width:100%;
@@ -43,6 +43,7 @@ function App() {
         <Navbar />
         <Body>
           <HeroSection />
+        
           <Wrapper>
             <Skills />
           
@@ -58,6 +59,7 @@ function App() {
           }
         </Body>
       </Router>
+      <ChatComponent/>
     </ThemeProvider>
   );
 }
