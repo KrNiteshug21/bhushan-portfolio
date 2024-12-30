@@ -1,90 +1,92 @@
-import React, { useState } from 'react';
-import qaData from "./content/personal.json"; // Adjust the path as necessary
-import './ChatComponent.css'; // Import the CSS file
+import React, { useEffect, useState } from "react";
+import { FaMessage } from "react-icons/fa6";
 
-const ChatComponent = () => {
-  const [isChatActive, setIsChatActive] = useState(false);
-  const [messages, setMessages] = useState([]);
-  const [userInput, setUserInput] = useState('');
-  console.log(qaData);
+export default function ChatbotEmbed() {
+  const [showChatbot, setShowChatbot] = useState(false);
+  const chatbotId = `JCM6NK4m2AsJj-v-vGKqL`;
 
-  const startChat = () => {
-    setIsChatActive(true);
-    setMessages([]); // Clear previous messages if needed
-  };
+  useEffect(() => {
+    // Load Chatbase script
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.defer = true;
+    document.head.appendChild(script);
 
-  const endChat = () => {
-    setIsChatActive(false);
-  };
+    // Cleanup
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
 
-  const handleSendMessage = (message) => {
-    if (message) {
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { text: message, sender: 'user' },
-      ]);
+  if (!chatbotId) {
+    return <p>Chatbot ID not found</p>;
+  }
 
-      // Find the answer from the JSON data
-      const foundQA = qaData.chats.find(
-        (qa) => qa.question.toLowerCase() === message.toLowerCase()
-      );
-
-      // Simulate a bot response
-      setTimeout(() => {
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          {
-            text: foundQA ? foundQA.answer : "I'm sorry, I don't understand that.",
-            sender: 'bot',
-          },
-        ]);
-      }, 1000);
-    }
-  };
+  if (!showChatbot) {
+    return (
+      <button
+        onClick={() => setShowChatbot(!showChatbot)}
+        style={{
+          position: "fixed",
+          right: "16px",
+          bottom: "16px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "#FFFFFF",
+          borderRadius: "50%",
+          width: "48px",
+          height: "48px",
+          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+          border: "none",
+          cursor: "pointer",
+        }}
+      >
+        <FaMessage size={24} color="#000000" />
+      </button>
+    );
+  }
 
   return (
-    <div className="chat-container">
-      {isChatActive ? (
-        <div className="chat-box">
-          <div className="chat-messages">
-            {messages.map((msg, index) => (
-              <div
-                key={index}
-                className={`chat-message ${
-                  msg.sender === 'user' ? 'chat-message-user' : 'chat-message-bot'
-                }`}
-              >
-                {msg.text}
-              </div>
-            ))}
-          </div>
-          <div className="chat-input">
-            <input
-              type="text"
-              placeholder="Type a message..."
-              value={userInput}
-              onChange={(e) => setUserInput(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter') {
-                  handleSendMessage(userInput);
-                  setUserInput('');
-                }
-              }}
-            />
-          </div>
-          <button className="chat-button chat-button-end" onClick={endChat}>
-            End Chat
-          </button>
-        </div>
-      ) : (
-        <div className="chat-start">
-          <button className="chat-button chat-button-start" onClick={startChat}>
-            Start Chat
-          </button>
-        </div>
-      )}
-    </div>
+    <section
+      style={{
+        position: "fixed",
+        right: "64px",
+        bottom: "64px",
+        width: "384px",
+        height: "500px",
+      }}
+    >
+      <iframe
+        src={`https://www.chatbase.co/chatbot-iframe/${chatbotId}`}
+        style={{
+          borderRadius: "8px",
+          width: "100%",
+          height: "100%",
+          border: "none",
+        }}
+      ></iframe>
+      <button
+        onClick={() => setShowChatbot(!showChatbot)}
+        style={{
+          position: "fixed",
+          right: "16px",
+          bottom: "16px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "#1D4ED8",
+          color: "#FFFFFF",
+          borderRadius: "50%",
+          width: "48px",
+          height: "48px",
+          border: "none",
+          cursor: "pointer",
+          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        }}
+      >
+        <FaMessage size={24} />
+      </button>
+    </section>
   );
-};
-
-export default ChatComponent;
+}

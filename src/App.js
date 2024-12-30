@@ -47,12 +47,14 @@ function App() {
   console.log(openModal);
 
   return (
+    <> 
+     
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
         <Navbar />
         <Body>
           <HeroSection />
-
+          
           <Wrapper>
             <Skills />
           </Wrapper>
@@ -62,13 +64,15 @@ function App() {
             <Contact />
           </Wrapper>
           <Footer />
+           <ChatComponent/>
           {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           )}
         </Body>
       </Router>
-      <ChatComponent />
+      
     </ThemeProvider>
+    </>
   );
 }
 
