@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaMessage } from "react-icons/fa6";
+import index from "./components/Education";
 
 export default function ChatbotEmbed() {
   const [showChatbot, setShowChatbot] = useState(false);
@@ -64,8 +65,8 @@ export default function ChatbotEmbed() {
           width: "100%",
           height: "100%",
           border: "none",
-        }}
-      ></iframe>
+        }}title="bhushan"
+      > </iframe>
       <button
         onClick={() => setShowChatbot(!showChatbot)}
         style={{
@@ -82,6 +83,7 @@ export default function ChatbotEmbed() {
           height: "48px",
           border: "none",
           cursor: "pointer",
+          zIndex:"100",
           boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
         }}
       >
