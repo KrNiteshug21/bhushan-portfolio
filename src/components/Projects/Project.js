@@ -4,7 +4,7 @@ import { useState } from "react";
 import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "../../data/constants";
 import styled from "styled-components";
-import _default from "../../themes/default";
+// import _default from "../../themes/default";
 
 const Container = styled.div`
   background: linear-gradient(
@@ -68,7 +68,7 @@ const CardContainer = styled.div`
 `;
 
 const Projects = ({ openModal, setOpenModal }) => {
-  const [toggle, setToggle] = useState("all");
+  const [toggle] = useState("all");
   return (
     <Container id="projects">
       <Wrapper>

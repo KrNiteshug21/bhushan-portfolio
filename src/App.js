@@ -2,9 +2,9 @@ import { ThemeProvider } from "styled-components";
 import { useState } from "react";
 import { darkTheme, lightTheme } from "./utils/Themes.js";
 import Navbar from "./components/Navbar";
-import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import HeroSection from "./components/HeroSection";
+import "./App.css";
 
 import Skills from "./components/Skills";
 
@@ -42,7 +42,7 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal);
 
